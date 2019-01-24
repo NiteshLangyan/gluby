@@ -1,0 +1,30 @@
+classical register (membername, email, pw)
++ 
+1st donation
+
+Here we do it a bit differently compared to PT1 :
+
+The aim is to enable the user to choose to register and donate and move some additional money into personal wallet in (almost) one step, without making registration process to complicated.
+
+As you may remember, the user can only become full member ("active") if he/she donates at least the minimal pot entry fee for the Global Pot(GP).
+
+In PT1 the number entered was 100% donation into GP.
+But now a user may choose:
+
+-> no donation = become inactive member
+-> donate only the min_entry_fee (and move/transfer only the same amount of money)
+-> choose with sliders the donation and money to transfer
+like:
+[XYZ.xy]|---o----------| donation slider 
+[XYZ.xy]|------o-------| transfer money slider
+[XYZ.xy] resulting money in your GLUBI wallet
+
+default values: min_entry_fee
+
+Here Gluby pot = main wallet of gluby and customer personel pot = Customer wallet.
+
+After registeration user can see a list of his donations and information of his wallet.
+He should be able to see list of transaction of his wallet.
+
+For now we can proeceed with only a simple login and registration module with some minimum amount of donation. And user can see his wallet details on his dashboard.
+Donation will be like user enter any number and it will save in database, that's it. Do not use any paypal integration. it will be like dummy donations.
